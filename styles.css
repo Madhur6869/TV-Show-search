@@ -1,0 +1,43 @@
+body{
+    background: rgb(89,147,118);
+    background: linear-gradient(90deg, rgba(89,147,118,1) 0%, rgba(86,9,121,1) 48%, rgba(0,212,255,1) 100%);
+}
+.title{
+    text-align: center ;
+    color: lavender;
+    width: 30%;
+    margin: auto;
+    margin-top: 2px;    
+}
+.input{
+    width: 80%;
+    margin-bottom: 2%;
+}
+.inputform{
+    text-align: center;
+}
+.search {
+    cursor: pointer;
+    display: inline-block;
+    height: 2%;
+    width: 2%;
+    vertical-align: middle;
+}
+/* Movie section boxes */
+.show-container{   
+    margin: auto;
+}
+.image{
+    max-width: 100%;
+    max-height:auto;
+    object-fit: contain;
+    margin: 2%;
+}
+.row{
+    background-color: rgba(230, 239, 250, 0.726);
+    margin: 1% ;
+    transition: transform .2s;
+}
+.row:hover{
+    transform: scale(1.02);
+}
