@@ -1,7 +1,16 @@
-body{
-    background: rgb(89,147,118);
-    background: linear-gradient(90deg, rgba(89,147,118,1) 0%, rgba(86,9,121,1) 48%, rgba(0,212,255,1) 100%);
+html {
+    height: 100%;
 }
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: rgb(89,147,118);
+    background: linear-gradient(90deg, rgba(89,147,118,1) 0%, rgba(86,9,121,1) 48%, rgba(0,212,255,1) 100%); */
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
 .title{
     text-align: center ;
     color: lavender;
@@ -34,7 +43,8 @@ body{
     margin: 2%;
 }
 .row{
-    background-color: rgba(230, 239, 250, 0.726);
+    /* background-color: rgba(230, 239, 250, 0.726); */
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
     margin: 1% ;
     transition: transform .2s;
 }
