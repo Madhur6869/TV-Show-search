@@ -44,7 +44,7 @@ body {
 }
 .row{
     /* background-color: rgba(230, 239, 250, 0.726); */
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
     margin: 1% ;
     transition: transform .2s;
 }
